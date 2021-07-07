@@ -1,9 +1,8 @@
 package bigONotation;
 
 public class BigONotation {
+
     public static void constantTimeExample(int n) {
-        System.out.println("Constant time example: " + n);
-        System.out.println("Constant time example: " + n);
         System.out.println("Constant time example: " + n);
     }
 
