@@ -3,7 +3,7 @@ package linearDataStructures.hashset;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Main {
+public class HashSetApp {
     public static void main(String[] args) {
         int[] numbers = {1, 2, 3, 3, 2, 1, 4};
         removeDuplicateNumbers(numbers);

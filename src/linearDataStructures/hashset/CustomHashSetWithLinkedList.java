@@ -2,11 +2,11 @@ package linearDataStructures.hashset;
 
 import java.util.LinkedList;
 
-public class CustomHashSet {
+public class CustomHashSetWithLinkedList {
     private final Bucket[] bucketArray;
     private final int keyRange;
 
-    public CustomHashSet() {
+    public CustomHashSetWithLinkedList() {
         this.keyRange = 769;
         this.bucketArray = new Bucket[this.keyRange];
         for (int i = 0; i < this.keyRange; i++) {
